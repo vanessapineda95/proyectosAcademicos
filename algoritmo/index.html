@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmo para el cálculo de áreas y volúmenes</title>
+</head>
+<body>
+    <style>
+    img {
+        width: 200px;
+    }
+    </style>
+
+    <!--Figura 1 Cubo--> 
+    <h1>Cubo</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_qxySLIvj2VzL9TUJYj8SXS_8_3aYHtNnUWxjd3NyJryY_JA5-7T5JTPKQepBPSBpDS8&usqp=CAU" alt="">
+    a: <input type="text" id="aCubo">
+    
+    <!--Creo los dos output, donde se va a ver los resultados de area y volumen -->
+    <output id="resultadoArea"></output>
+    <output id="demo2"></output>
+
+    <!--Creo el boton, el onclick significa que cuando se de clic sobre el boton "calcular" se ejecutará la funcion Cubo() -->
+    <button id="btnCubo" onclick="Cubo()">Calcular</button>
+
+
+    <!--Figura 2 Cilindro--> 
+    <h1>Cilindro</h1>
+    <img src="https://www.neurochispas.com/wp-content/uploads/2022/07/Formulas-del-area-y-del-volumen-de-un-cilindro.png" alt="" id="imgCilindro">
+    R:<input type="text" id="R">
+    h:<input type="text" id="H">
+
+    <output id="areaCilindro"></output>
+    <output id="volumenCilindro"></output>
+
+    <button id="btnCilindro" onclick="Cilindro()">Calcular</button>
+
+
+    <!--Figura 3 Ortoedro -->
+    <h1>Ortoedro</h1>
+    <img src="https://rea.ceibal.edu.uy/elp/paralelep_pedo_planos_paralelos/rectangular_parallelepiped.gif" alt="">
+    a: <input type="text" id="a-edro">
+    b: <input type="text" id="b-edro">
+    c: <input type="text" id="c-edro">
+
+    <output id="areaOrtoedro"></output>
+    <output id="volumenOrtoedro"></output>
+
+    <button id="btnOrtoedro" onclick="Ortoedro()">Calcular</button>
+
+
+    <!--Figura 4 Esfera -->
+    <h1>Esfera</h1>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyRaVh7jAQ5y9t7D_OQ9f_wLuk6c303NA9ww&usqp=CAU" alt="">
+    R: <input type="text" id="rEs">
+
+    <output id="areaEsfera"></output>
+    <output id="volumenEsfera"></output>
+
+    <button id="btnEsfera" onclick="Esfera()">Calcular</button>
+
+
+    
+    <!--Aqui traigo el archivo .js -->
+    <script src="main.js"></script>
+</body>
+</html>
